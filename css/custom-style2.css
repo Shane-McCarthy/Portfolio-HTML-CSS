@@ -1,0 +1,293 @@
+.navbar-default{
+   /* background-image: url("../../backgrounds/paper-4.jpg");*/
+    background: #fdfdfd;
+    box-shadow: 15px 7px 5px #888888;
+    border-color: #C2BEBE;
+
+}
+.page-scroll{
+
+    font-family: Duru Sans, Arial, sans-serif;
+}
+.navbar-nav {
+    float: right;
+    margin: 0;
+}
+.side {
+	 float: right;
+    margin: 0;
+}
+.content_background {
+/*   background-color: #dd5b43; */
+}
+.circle-img{
+   padding: 0px; 
+    width:100px;
+    height:100px;
+   
+}
+.circle-img:before{
+   
+    position:absolute;
+    width:100px;
+    height:100px;
+    left:0;
+    top:0;
+    content: url("../img/tileblue.png");
+    opacity:0.4;
+
+    -webkit-transition: opacity 1s linear;
+    -o-transition: opacity 1s linear;
+    -moz-transition: opacity 1s linear;
+    transition: opacity 1s linear;
+}
+.circle-img:hover:before{
+     content: url("../img/tile.png");
+	z-index: 1; 
+    opacity:1;
+}
+.circle-img2{
+   padding: 0px; 
+    width:100px;
+    height:100px;
+   
+}
+.circle-img2:before{
+   
+    position:absolute;
+    width:100px;
+    height:100px;
+    left:0;
+    top:0;
+    content: url("../img/tilephongblue.png");
+    opacity:0.4;
+
+    -webkit-transition: opacity 1s linear;
+    -o-transition: opacity 1s linear;
+    -moz-transition: opacity 1s linear;
+    transition: opacity 1s linear;
+}
+.circle-img2:hover:before{
+     content: url("../img/tilephong.png");
+    z-index: 1; 
+    opacity:1;
+}
+
+.circle-img3{
+   padding: 0px; 
+    width:100px;
+    height:100px;
+   
+}
+.circle-img3:before{
+   
+    position:absolute;
+    width:100px;
+    height:100px;
+    left:0;
+    top:0;
+    content: url("../img/tileanayablue.png");
+    opacity:0.4;
+
+    -webkit-transition: opacity 1s linear;
+    -o-transition: opacity 1s linear;
+    -moz-transition: opacity 1s linear;
+    transition: opacity 1s linear;
+}
+.circle-img3:hover:before{
+     content: url("../img/tileanaya.png");
+    z-index: 1; 
+    opacity:1;
+}
+
+.circle-img4{
+   padding: 0px; 
+    width:100px;
+    height:100px;
+   
+}
+.circle-img4:before{
+   
+    position:absolute;
+    width:100px;
+    height:100px;
+    left:0;
+    top:0;
+    content: url("../img/tilefiveblue.png");
+    opacity:0.4;
+
+    -webkit-transition: opacity 1s linear;
+    -o-transition: opacity 1s linear;
+    -moz-transition: opacity 1s linear;
+    transition: opacity 1s linear;
+}
+.circle-img4:hover:before{
+     content: url("../img/tilefive.png");
+    z-index: 1; 
+    opacity:1;
+}
+
+.circle-img5{
+   padding: 0px; 
+    width:100px;
+    height:100px;
+   
+}
+.circle-img5:before{
+   
+    position:absolute;
+    width:100px;
+    height:100px;
+    left:0;
+    top:0;
+    content: url("../img/tileanotherblue.png");
+    opacity:0.4;
+
+    -webkit-transition: opacity 1s linear;
+    -o-transition: opacity 1s linear;
+    -moz-transition: opacity 1s linear;
+    transition: opacity 1s linear;
+}
+.circle-img5:hover:before{
+     content: url("../img/tileanother.png");
+    z-index: 1; 
+    opacity:1;
+}
+
+.circle-img6{
+   padding: 0px; 
+    width:100px;
+    height:100px;
+   
+}
+.circle-img6:before{
+   
+    position:absolute;
+    width:100px;
+    height:100px;
+    left:0;
+    top:0;
+    content: url("../img/tileweatherblue.png");
+    opacity:0.4;
+
+    -webkit-transition: opacity 1s linear;
+    -o-transition: opacity 1s linear;
+    -moz-transition: opacity 1s linear;
+    transition: opacity 1s linear;
+}
+.circle-img6:hover:before{
+     content: url("../img/tileweather.png");
+    z-index: 1; 
+    opacity:1;
+}
+
+.circle-img7{
+   padding: 0px; 
+    width:100px;
+    height:100px;
+   
+}
+.circle-img7:before{
+   
+    position:absolute;
+    width:100px;
+    height:100px;
+    left:0;
+    top:0;
+    content: url("../img/tilephotoblue.png");
+    opacity:0.4;
+
+    -webkit-transition: opacity 1s linear;
+    -o-transition: opacity 1s linear;
+    -moz-transition: opacity 1s linear;
+    transition: opacity 1s linear;
+}
+.circle-img7:hover:before{
+     content: url("../img/tilephoto.png");
+    z-index: 1; 
+    opacity:1;
+}
+.circle-text{
+	
+	position: relative;
+	top: 55px; 
+	left: 33px; 
+}
+.circle-text h4 {
+	font-size: 20pt ; 
+	
+}
+.circle-text h5 {
+	font-size: 14pt ; 
+	
+}
+
+.circle-text2{
+  
+  position: relative;
+  top: 45px; 
+  left: 45px; 
+}
+.circle-text2 h4 {
+  font-size: 20pt ; 
+  
+}
+.circle-text2 h5 {
+  font-size: 14pt ; 
+  
+}
+.blue-background {
+	background-color: #58a89f; 
+}
+
+.red_background {
+   background-color: #dd5b43; 
+   
+}
+#website_section{
+    position: relative;
+    top:150px;
+}
+.about-section{
+
+  background-image: url("../img/tileblue.jpg");
+    background-repeat: repeat;
+    min-height: 560px; 
+
+}
+.intro-section h1, p {
+     line-height: 175%; 
+     letter-spacing: 2px; 
+    color: #ffffff; 
+}
+.container-intro {
+    width: 60%; 
+    line-height: 400%; 
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.about-section h1, h2, h3, h4 {
+    text-align: left;
+    line-height: 40px; 
+    color: #f7f7f7;
+}
+.about-section h3 {
+    text-align: right;
+     color: #f7f7f7;
+      line-height: 30px; 
+}
+.mask-blue{
+    background-image: url("./../img/blue.png");
+    position: relative;
+}
+.navbar-collapse #logo{
+    display: hidden;  
+}
+.navbar-collapse.in #logo{
+    display: inline;
+}
+#logo {
+    width: 100%; 
+}
